@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:375px){
+    main{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        gap:2rem;
+        padding: 0.8rem;
+        margin:4rem 2rem
+    }
+ 
+    .sedans{
+        border-radius: 10px ;
+        margin:  1rem 0;
+    }
+    
+    .SUVs{
+        border-radius: 10px;
+        margin:  1rem 0;
+    }
+    
+    .Luxury{
+        border-radius: 10px;
+        margin:  1rem 0;
+    }
+
+    button{
+        width: 100%;
+    }
+
+    main p{
+        margin: 0;
+        padding: 0;
+    }
+ 
+    section {
+        position: relative;
+        top: 40rem;    
+    }
+ 
+    span{
+        text-align: center;
+        padding:0.4rem;
+    }
+}
+
+@media screen and (min-width:1440px){
+    main{
+        padding:15rem;
+    }
+}
+ 
+ 
