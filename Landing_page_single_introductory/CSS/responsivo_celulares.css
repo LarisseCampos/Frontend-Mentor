@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width:375px) and (max-width:479px){
+    .logo{
+        width: 50%;
+        margin: 0.8rem 0 0 0.6rem;
+    }
+    .container{
+        margin: 1rem;
+        padding: 0.4rem;
+    }
+    .mockups {
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .container-wrap{
+        margin: 4rem auto;
+    }
+    .conteudo{
+        padding: 0;
+        margin: 0 auto;
+    }
+    .conteudo h1{
+        font-size: 1.6rem;
+        text-align: center;
+        margin: 2rem 0 0 0;
+        padding: 0.6rem;
+    }
+    .conteudo p{
+        margin: 0 0 1.3rem 0;
+        padding:0.6rem;
+        text-align: center;
+    }
+    .botao{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem auto;
+    }
+    .botao >button{
+        margin: 0 auto;
+        width: 60%;
+    }
+    .redes_sociais{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.3rem;
+    }
+    .redes_sociais >img{
+        margin: 0.1rem;
+    }
+    footer{
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:374px){
+    .container{
+        margin: 10px 10px 0 10px;
+        padding: 5px;
+    }
+    .container-wrap{
+        margin-top: 3rem;
+    }
+    .logo{
+        width: 35%;
+        padding: 0.3rem;
+        margin: 0.5rem;
+    }
+    .conteudo{
+        padding: 0;
+        margin:10px;
+    }
+    .conteudo h1{
+        font-size: 1rem;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0.6rem;
+    }
+    .conteudo p{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .botao{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem auto;
+    }
+    .botao >button{
+        margin: 0 auto;
+        width: 60%;
+    }
+    .redes_sociais{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem;
+        padding: 0.8rem;
+    }
+    .redes_sociais >img{
+        margin: 0.1rem;
+    }
+    .atribuicao{
+        display: none;
+    }
+}

@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width:480px) and (max-width:600px){
+    .container{
+        margin: 0 auto;
+        padding: 1.2rem;
+    }
+    .logo{
+        width: 40%;
+    }
+    .mockups {
+        width: 100%;
+    }
+    .conteudo{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .conteudo h1{
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0.2rem;
+        padding: 2rem;
+    }
+    .conteudo p{
+        text-align: center;
+        margin: 0.2rem 0.2rem 1rem 0.2rem;
+        padding: 0.2rem;
+    }
+    .botao{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem auto;
+    }
+    .botao >button{
+        margin: 0 auto;
+        width: 60%;
+    }
+    
+    .redes_sociais{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+   
+}
+@media screen and (min-width:601px) and (max-width:700px){
+    .container{
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    .logo{
+        width: 30%;
+    }
+    .conteudo h1{
+        font-size: 1.8rem;
+        text-align: center;
+        margin: 1rem;
+        padding: 0.5rem;
+    }
+    .botao{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem auto;
+    }
+    .botao >button{
+        margin: 0 auto;
+        width: 50%;
+    }
+    .redes_sociais{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:0.5rem 0 0.5rem 0 ;
+        padding: 10px;
+    }
+    
+}
+
+@media screen and (min-width:760px) and (max-width:900px){
+    .container{
+        padding: 1rem;
+    }
+    .conteudo{
+        
+        padding: 0.5rem;
+    }
+    .mockups{
+        margin: 1rem;
+    }
+    
+}

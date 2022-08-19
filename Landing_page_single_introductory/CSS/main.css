@@ -1,0 +1,143 @@
+:root{
+    --violeta:hsl(257, 40%, 49%);
+    --magenta:hsl(300, 69%, 71%);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', 'Poppins', sans-serif;
+    
+}
+
+body{
+    background-image:url(/Landing_page_single_introductory/images/bg-desktop.svg); 
+    background-color: var(--violeta);
+}
+
+.container{
+    margin-left: 0;
+    padding: 2.8rem;
+}
+
+.logo{
+    margin: 1.1rem;
+    padding: 1rem;
+    width: 20%;
+    display: inline-block;
+    position: absolute;
+    left: 0.5rem;
+    top: 1rem;
+}
+
+.container-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7.5rem;
+}
+
+.container-wrap >div{
+   flex:1 1 300px;
+}
+
+.mockups {
+    width: 106%;
+}
+
+.conteudo{
+    text-align: left;
+    padding: 1.8rem;
+    margin: 0 2rem;
+}
+
+.conteudo h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #fff;
+    margin:0 0 1.5rem 2rem; 
+}
+
+.conteudo p{
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.705);
+    margin:0 0 1.5rem 2rem;  
+}
+
+.conteudo h1::selection{
+    background: var(--magenta);
+    color: var(--violeta);
+}
+.conteudo p::selection{
+    background: var(--magenta);
+    color: var(--violeta);
+}
+
+.botao{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+button{
+    background: rgba(255, 255, 255, 0.904);
+    width: 40%;
+    border: none;
+    border-radius: 20px;
+    color: var(--violeta);
+    font-size: 15px;
+    padding: 0.6rem;
+    transition: ease 0.3s;
+    margin-left:2rem ;
+}
+
+button:hover{
+    background:var(--magenta);
+    color: rgba(255, 255, 255, 0.801);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.redes_sociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 2rem;
+}
+
+.redes_sociais >img{
+    border-radius: 50%;
+    padding: 3px;
+    margin: 5px;
+    width: 32px;
+    border:1px solid #fff;
+    transition: ease 0.2s;   
+}
+
+.redes_sociais >img:hover{
+    border-color:var(--magenta);
+    background: var(--magenta);
+}
+footer{
+    width: 100%;
+    max-height: 10vh;
+}
+footer p.atribuicao{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.801);
+    margin-top: 1rem;
+    font-size: 14px;
+}
+.atribuicao >a{
+    color: rgba(255, 255, 255, 0.801);
+    text-decoration: underline var(--magenta);
+}
+.atribuicao >a:hover{
+    color: var(--magenta);
+    text-decoration: underline rgba(255, 255, 255, 0.801);
+}
+
+
+
